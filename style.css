@@ -45,6 +45,10 @@ body.change-theme {
   --border-color: hsl(0, 0%, 0%, 0.2);
 }
 
+body.change-theme .portfolio__item:hover::after {
+  background-color: hsla(242, 85%, 62%, 0.495);
+}
+
 @media screen and (max-width: 992px) {
   :root {
     --header-height: 5rem;
@@ -476,7 +480,7 @@ textarea, input {
 
 .portfolio__item:hover::after {
   opacity: 1;
-  background-color:hsla(242, 85%, 62%, 0.495);
+  background-color: hsla(350, 98%, 64%, 0.596);
 }
 
 .portfolio__item:hover .portfolio__img {
